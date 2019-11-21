@@ -1,5 +1,5 @@
 # Solidworks
-Pictures and descriptions of my Solidworks assignments.
+Pictures and descriptions of my Solidworks assignments. This is intended to ~~get me a good grade~~ be used as a tool for other people doing these assignments, providing an overview of my experience, with some helpful advice scattered around.
 
 ## Design Tables
 In this assignment, we made a design table which would provide a bunch of configurations for a spool. This would make it wider, have more screw holes, etc. It's pretty basic. One thing I had a bit of trouble with was accidentally jacking up the configurations because I didn't set changes to `This configuration` as opposed to `All configurations`. Dumb mistake, still happened though. Here's a picture of the various spool sizes, lined up.
@@ -21,4 +21,16 @@ Now, for the interesting part. Up until now, I had never delved into the realm o
 
 ## Gears and Gearbox
 
-Oh lord. This was a *time*.
+Oh lord. This was a *time*. 
+
+My assignment: first, create gears. Then, create axels, spacers, frames, and a knob. Then assemble all of it and mate it so that the gears all mesh properly. Simple, right? So yeah, it was a lot.
+
+I started by making my gears. I used a design table to make 4 configurations of different sizes. These had a bunch of variables that would change with each configuration. In fact, the different gears were different *because* of these altered variables. Almost all of the dimensions were equations. For example, the radius of each gear was a variable: `addendum_diameter`. Some others were actual equations, though. An example of that would be the size each tooth. the number of teeth was simple: that was stored in the variable `teeth`.  However, the size was `180/"teeth"`. Our instructions were pretty confusing in a few places, but hopefully that will have been addressed by the time whoever reads this is working on that assignment. It was talking about how you need to do this to that construction line, but there's a hundred construction lines, and how "that little line goes to the side arc." (but which one? What line? What even is a gear?) It was a mess. Eventually, I got it to a tolerable level of not-awfulness, and made the extraordinarily wise decision to say that it was good enough. Here's a picture of one of my gears.
+
+![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/gear.JPG "Sorry about the cropping. It's abominable.")
+
+So I had my gears. Now for the "box" part of Gearbox. First, I had to make the frame that our gears would be attatched to. I got a picture, displayed below, of what our basic dimensions should look like. 
+
+![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/frame_ideal.PNG "Perfect!")
+
+Under that, I had directions on what a few dimensions were and a tip on how far apart the holes should be. From there, it was sink or swim. I...didn't swim. Not once, not twice, not four times, but *three times* I deleted all the shit I had made for the frame and started over. Finally, on my third attempt, I picked up an idea from some other people: instead of trying to 
