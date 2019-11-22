@@ -33,4 +33,16 @@ So I had my gears. Now for the "box" part of Gearbox. First, I had to make the f
 
 ![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/frame_ideal.PNG "Perfect!")
 
-Under that, I had directions on what a few dimensions were and a tip on how far apart the holes should be. From there, it was sink or swim. I...didn't swim. Not once, not twice, not four times, but *three times* I deleted all the shit I had made for the frame and started over. Finally, on my third attempt, I picked up an idea from some other people: instead of trying to 
+Under that, I had directions on what a few dimensions were and a tip on how far apart the holes should be. From there, it was sink or swim. I...didn't swim. Not once, not twice, not four times, but *three times* I deleted all the shit I had made for the frame and started over. Finally, on my third attempt, I picked up an idea from some other people: instead of trying to make a bunch of weird arcs, just do rectangles and circles that overlap, then use the `Trim Entities` tool to get it all fixed up. That approach, however, led to this catastrophe.
+
+![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/box_frame_withrelations.png "This could literally be the before photo to a before/after")
+
+Disgusting. That said, it was fully defined and fully functional, so I just went with it. I am certain that there is a better way. I just didn't find it.
+
+Anyway, with that done, I made an axel with a short and long configuration. No issues there, just put in the measurements. Then, I made spacers with a handful of configurations for different sizes. Again, no issue. I then made assemblies, putting the gears on axels and putting in spacers. Again, no issues. Then, I had to make a knob. This would theoretically be turned, turning the gears. I had a bit of trouble getting the dimensions to cooperate, but no major issues.
+
+Finally, the assembly. I did all the normal mates to get things attached, then delved into the realm of `Gear` mates. Turns out, having the whole thing kind of assembled made it more confusing to do the gear mates, so I got rid of a bunch of mates, then moved on to the actual gears. The gear mates were kind of wack, but I got it figured out. Finally I could assemble the whole thing and watch the magic!
+
+![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/gearbox_shields.JPG "Expectation")
+
+![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/gearbox_pic.png "Reality")
