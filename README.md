@@ -27,13 +27,13 @@ My assignment: first, create gears. Then, create axels, spacers, frames, and a k
 
 I started by making my gears. I used a design table to make 4 configurations of different sizes. These had a bunch of variables that would change with each configuration. In fact, the different gears were different *because* of these altered variables. Almost all of the dimensions were equations. For example, the radius of each gear was a variable: `addendum_diameter`. Some others were actual equations, though. An example of that would be the size each tooth. the number of teeth was simple: that was stored in the variable `teeth`.  However, the size was `180/"teeth"`. Our instructions were pretty confusing in a few places, but hopefully that will have been addressed by the time whoever reads this is working on that assignment. It was talking about how you need to do this to that construction line, but there's a hundred construction lines, and how "that little line goes to the side arc." (but which one? What line? What even is a gear?) It was a mess. Eventually, I got it to a tolerable level of not-awfulness, and made the extraordinarily wise decision to say that it was good enough. Here's a picture of one of my gears.
 
-![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/gear.JPG "Sorry about the cropping. It's abominable.")
+![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/gear.JPG "Sorry about the cropping. It's *abominable*.")
 
 So I had my gears. Now for the "box" part of Gearbox. First, I had to make the frame that our gears would be attatched to. I got a picture, displayed below, of what our basic dimensions should look like. 
 
 ![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/frame_ideal.PNG "Perfect!")
 
-Under that, I had directions on what a few dimensions were and a tip on how far apart the holes should be. From there, it was sink or swim. I...didn't swim. Not once, not twice, not four times, but *three times* I deleted all the shit I had made for the frame and started over. Finally, on my third attempt, I picked up an idea from some other people: instead of trying to make a bunch of weird arcs, just do rectangles and circles that overlap, then use the `Trim Entities` tool to get it all fixed up. That approach, however, led to this catastrophe.
+Under that, I had directions on what a few dimensions were and a tip on how far apart the holes should be. From there, it was sink or swim. I...didn't swim. Not once, not twice, not four times, but *three times* I deleted all the stuff I had made for the frame and started over. Finally, on my third attempt, I picked up an idea from some other people: instead of trying to make a bunch of weird arcs, just do rectangles and circles that overlap, then use the `Trim Entities` tool to get it all fixed up. That approach, however, led to this catastrophe.
 
 ![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/box_frame_withrelations.png "This could literally be the before photo to a before/after")
 
