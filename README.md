@@ -52,3 +52,7 @@ Finally, the assembly. I did all the normal mates to get things attached, then d
 For this assignment, I had to make this weird little mess of parts, assemble it, and make a motion study of it. "What's a mtion study?" I can hear you asking. Well, I could very well be wrong on this, but I'm pretty sure the best way to desrcibe it is this: a simulation of how your assembly will react to movement. I made a bunch of parts according to measurements I was given, assembled them without any issues, and did the motion study according to the instructions. This ran into some issues, however. I was getting a weird error that I didn't understand: `Dynamic simulation stopped due to incompatible redundant constraints present in the system.` I didn't have the foggiest as to what that meant. I searched it up and discovered a way to make the redundant mates automatically become a bushing. I'm not quite sure what a bushing is, but whatever. It was a complete disaster. Mr. H tried to help me, but in the end, he decided to take pity on me and just let me be done. Here's a picture of the god-forsaken thing.
 
 ![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/motionstudysshot.png "Finally done, I guess.")
+
+## Stress Analysis
+
+This was a pretty cool one. I really got to see the practical uses of Solidworks.
