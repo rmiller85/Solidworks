@@ -55,4 +55,8 @@ For this assignment, I had to make this weird little mess of parts, assemble it,
 
 ## Stress Analysis
 
-This was a pretty cool one. I really got to see the practical uses of Solidworks.
+This was a pretty cool one. I really got to see the practical uses of Solidworks. We had to make a part and run some tests on it. I made the part without issues and pulled up `SimulationXpress Analysis Wizard`. Note: I'm pretty sure you have to turn off `Solidworks Simulation` in Add-Ins. From here, the instructions were pretty easy to follow except for one thing: it says to select the face of the large hole. This means to select the inside of the cylinder, not the top of it. I know that was an atrocious way to explain it, so here's a picture of my part with the face that you want to select highlighted.
+
+![alt_text](https://github.com/rmiller85/Solidworks/blob/master/Screenshots/stress_analysis_pic.png "Trust me, it's all worth it to see the animation.")
+
+Ok, so it's time to see the animation now. Solidworks senses where the part could move and *wiggles* it. Honestly I don't know why it looks so funny to me. I guess I just never aged past 11.  At this point, the instructions asked me to make the part stronger. I tried making the hole in the middle smaller. This worked relatively well, but, thanks to Harrison, I discovered that there was a *far* bette way to strenghthen it. Make the cut in the middle leave a slice in the middle as a support. This *dramatically* improved the strength of the part.
